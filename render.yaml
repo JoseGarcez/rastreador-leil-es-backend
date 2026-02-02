@@ -1,0 +1,16 @@
+# Render.com Configuration
+# https://render.com/docs/yaml-spec
+
+services:
+  - type: web
+    name: rastreador-tratores-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+    healthCheckPath: /health
