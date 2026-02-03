@@ -270,7 +270,7 @@ app.use(express.json({ limit: '1mb' })); // Limita payload
 // CORS Config
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://seu-frontend.netlify.app'] // Restritivo em produção
+    ? ['https://caetite.netlify.app'] // Restritivo em produção
     : '*', 
   methods: ['GET', 'POST']
 }));
