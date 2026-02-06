@@ -1,7 +1,7 @@
 {
-  "name": "rastreador-tratores-backend",
+  "name": "rastreador-oportunidades-backend",
   "version": "1.0.0",
-  "description": "Backend API para rastreamento de tratores em sites de leilão",
+  "description": "Backend API para rastreamento de oportunidades em sites de leilão",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
